@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+
+input[type=text]:invalid, input[type="password"]:invalid {
+    border-color: red;
+}
+
+input[type="text"], input[type="password"] {
+    border-color: green;
+    border-radius: 4px;
+    border-width: 2px;
+    padding: 4px;
+}
+
+input[type="password"].mediumPassword {
+     border-color: yellow;
+}
+    
